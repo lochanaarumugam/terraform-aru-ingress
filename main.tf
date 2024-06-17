@@ -2,7 +2,7 @@ provider "aws" {
   region = var.region
 }
 
-module "sqs" {
+module "aru" {
   source = "./modules/sqs"
   
   queue_name             = var.queue_name
